@@ -9,7 +9,7 @@ int compare(const void* a, const void* b) {
 
 int main() {
 
-    //FILE* file = fopen("test_input.txt", "r");
+    //FILE* file = fopen("inputs/test_input.txt", "r");
     FILE* file = fopen("inputs/1_dec_input.txt", "r");
     char line[16];
     int left[1024];
